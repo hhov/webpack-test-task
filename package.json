@@ -1,0 +1,22 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "json-loader": "^0.5.7",
+    "moment": "^2.29.1",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "sass-loader": "^7.2.0",
+    "sass": "^1.22.10"
+  },
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}
